@@ -1,4 +1,4 @@
-class ContactMailer < ActionMailr::Base
+class ContactMailer < ActionMailer::Base
    default to: 'junior8211@gmail.com'
    
    def contact_email(name, email, body)
